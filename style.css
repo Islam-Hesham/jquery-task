@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.section-1 {
+    background-image: url("images/invitation-1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.overlay1 {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.header-inner h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+.header-inner p {
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: absolute;
+    left: -1%;
+}
+
+.openbtn:hover {
+    background-color: #444;
+    color: rgb(214, 46, 51, )
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+
+
+
+
+
+
+.countdown {
+    background-image: url("images/invitation-2508607__340.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+    border: 1px solid #FFF;
+    padding: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+a:hover {
+    color: white;
+}
+
+dt {
+    background-color: rgba(214, 46, 51, 0.6);
+
+    padding: 10px;
+}
+
+dd {
+    padding: 10px;
+    background-color: #ccc;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.hh3 {
+    Font-size: 35px;
+    Font-weight: 700;
+    Line-height: 38.5px;
+    color: rgb(68, 68, 68);
+}
+
+.fpar {
+    Font-size: 16px;
+    Font-weight: 300;
+    Line-height: 22.8571px;
+    color: rgb(119, 119, 119);
+}
+
+.contact {
+    Font-size: 18px;
+    Font-weight: 700;
+    Line-height: 19.8px;
+    color: rgb(68, 68, 68);
+}
+.fa-location-dot , .fa-envelope, .fa-phone{
+    margin-right: 20px;
+}
+.ccolor-diff{
+    color: rgb(214, 46, 51);
+}
+
+.con-social i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition:  all  .3s;
+   
+}
+        .con-social i:hover{
+            color:white;
+            background-color:rgb(214, 46, 51);
+            border:none;
+        }
+
+
+
+      .btn  {background-color: #D62E33;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 0;
+            text-transform: uppercase;}
+                        .btn:hover {
+                            background-color: #D62E33;
+                            color: #fff;
+                            padding: 10px 20px;
+                            border-radius: 0;
+                            text-transform: uppercase;
+                        }
